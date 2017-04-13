@@ -16,7 +16,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-  <link href="awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
@@ -44,36 +44,38 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <img id="profile" src="2.jpg">
-  <h1>Osvaldo Villagomez</h1><small>(Ozzy)</small>
-  <p>Student | University of Illinois at Urbana-Champaign</p>
-  <p>Computer Science | Communication</p>
-  <p>Developer | Filmmaker</p>
+  <div class="row">
+    <div class="col-lg-4">
+      <img id="profile" src="2.jpg">
+    </div>
+    <div class="col-lg-8">
+      <h1>Osvaldo Villagomez <small class="nickname">(Ozzy)</small></h1>
+      <p>Full Stack Developer, Web Specialist, and Filmmaker</p>
+      <p>University of Illinois at Urbana-Champaign</p>
+      <p>Computer Science | Communication</p>
+      <div class="icons">
+        <a href="https://www.facebook.com/ozzyvillagomez" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://www.snapchat.com/add/ozzygomez" target="_blank"><i class="fa fa-snapchat-square" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/ozzyvillagomez" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://github.com/ozzygomez" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/osvaldo-villagomez-8385b769/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      </div>
+      
+    </div>
+  </div>
 </div>
 
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>About Me</h2><br>
-      
-      <h4>
-        I am currently a student at the University of Illinois at Urbana-Champaign studying Computer Science and Communication.
-      </h4><br>
-
+      <h2>About Me</h2>
+      <h4>Recent Graduate from the University of Illinois at Urbana-Champaign.</h4>
+      <h4>Computer Science and Communication.</h4>
       <h3>The Developer</h3>
-      
-      <p>
-        I believe creativity is necessary to successfully accomplish any venture. As a developer I am able to successfully use my creativity and experience in computer science and communication to complete projects. I am passionate about how people communicate thought technology and with technology.
-      </p>
-
-      <p>
-        One of my goals is to launch a successful startup. One that combines my passion for creating and helping others do the same.
-      </p>
-
-      <p>
-        I am currently pursuing internships and learning opportunies in the software development and communication field.
-      </p>
-
+      <p>Full Stack Developer (Front-End is my favorite)</p>
+      <p>My passion lies with learning and improving the way people communicate with and through technology.</p>
+      <p>As a developer I am able to create web applications that utilize my creativity to help achieve my goal of helping people better communicate using technology. </p>
+      <p>I am the Developer/Creator of FimR, a social collaboration web app to help students find people and stay on track.</p>
       <br><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">View Resume</button>
       <div class="container">
         <div class="modal fade" id="myModal" role="dialog">
@@ -93,9 +95,6 @@
           </div>
         </div>
       </div>
-
-
-
     </div>
     <div class="col-sm-4">
       <span class="fa fa-graduation-cap logo slideanim"></span>
@@ -111,25 +110,15 @@
     </div>
     <div class="col-sm-8">
       <h3>The Filmmaker</h3>
-
-      <p>As a filmmaker I am able to create new and exciting ways of telling stories. I enjoy writing, directing, and editing as part of the backend of the film.</p>
-
-      <p>One of my favorite aspects of filmmaking is acting. Acting allows me to become a different person; to become a lawyer or a doctor or even a superhero. The possibilities are endless.</p>
-
-      <p>I am also actively pursuing internships and other opportunities in Acting and Filmmaking.</p>
-
+      <p>Actor, Director, and Writer</p>
+      <p>I am a filmmaker hobbyist. I enjoy creating short films of any genre. I have helped write, direct, and act in several student short films.</p>
+      <p>I am a creator at heart, whether it be film or web apps. Being able to create is my goal.</p>
     </div>
   </div>
 </div>
 
-
-
-
-
 <div id="skills" class="container-fluid text-center">
   <h2>A Few of My Skills Include</h2>
-  <br>
-
   <div class="row slideanim">
     <div class="col-sm-4">
       <span class="fa fa-html5 logo-small"></span>
@@ -140,30 +129,26 @@
       <h4>CSS</h4>
     </div>
     <div class="col-sm-4">
-      <span class="fa fa-code logo-small"></span>
+      <span class="fa fa-jsfiddle logo-small"></span>
       <h4>JavaScript</h4>
     </div>
   </div>
-
   <br><br>
-
   <div class="row slideanim">
     <div class="col-sm-4">
       <span class="fa fa-terminal logo-small"></span>
-      <h4>C</h4>
+      <h4>NodeJS</h4>
     </div>
     <div class="col-sm-4">
       <span class="fa fa-file-code-o logo-small"></span>
-      <h4>C++</h4>
+      <h4>AngularJS</h4>
     </div>
     <div class="col-sm-4">
-      <span class="fa fa-coffee logo-small"></span>
-      <h4>Java</h4>
+      <span class="fa fa-code logo-small"></span>
+      <h4>PHP</h4>
     </div>
   </div>
-  
   <br><br>
-
   <div class="row slideanim">
     <div class="col-sm-4">
       <span class="fa fa-file-video-o logo-small"></span>
@@ -303,7 +288,7 @@
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Osvaldo Villagomez &copy; 2016</p>		
+  <p>Osvaldo Villagomez &copy; 2017</p>		
 </footer>
 
 <script>

@@ -116,8 +116,12 @@
       color: #fff;
   }
   #profile {
-      width: 200px;
-      border-radius: 100px;
+      width: 280px;
+      border-radius: 150px;
+  }
+  .nickname {
+      color: #fff;
+      font-size: 30px;
   }
   .navbar {
       margin-bottom: 0;
@@ -129,6 +133,33 @@
       letter-spacing: 4px;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
+  }
+  .icons {
+    font-size: 50px;
+    text-align: center;
+  }
+  .fa-facebook-square:hover,
+  .fa-snapchat-square:hover,
+  .fa-twitter-square:hover,
+  .fa-github-square:hover,
+  .fa-linkedin-square:hover {
+    cursor: pointer;
+    text-shadow: 0px 1px 1px #def, 0 0 0 #000, 1px 1px 1px #def;
+  }
+  .fa-facebook-square {
+    color: #3b5998;
+  }
+  .fa-snapchat-square {
+    color: #fffc00;
+  }
+  .fa-twitter-square {
+    color: #55acee;
+  }
+  .fa-github-square {
+    color: #24292e;
+  }
+  .fa-linkedin-square {
+    color: #007bb5;
   }
   .navbar li a, .navbar .navbar-brand {
       color: #fff !important;
