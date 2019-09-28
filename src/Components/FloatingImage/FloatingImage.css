@@ -1,0 +1,21 @@
+.floating-img {
+	width: 300px;
+	position: fixed;
+	bottom: 0;
+	right: 50px;
+}
+
+.floating-img img {
+	display: block;
+}
+
+.floating-img-button {
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+	cursor: pointer;
+}
+
+.floating-img-button:hover {
+	text-decoration: underline;
+}
