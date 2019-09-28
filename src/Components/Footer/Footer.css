@@ -1,0 +1,22 @@
+.footer {
+	background-color: #212121;
+	color: white;
+	padding: 2rem;
+}
+
+.footer-menu {
+	display: flex;
+}
+
+.footer-menu-item {
+	text-decoration: none;
+	color: white
+}
+
+.footer-menu-item:hover {
+	text-decoration: underline;
+}
+
+.footer-menu-item:not(:last-child) {
+	margin-right: 1rem;
+}
