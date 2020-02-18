@@ -8,10 +8,8 @@ import Illini from './Assets/illini.mp4';
 import Light from './Assets/light.mp4';
 import LowBattery from './Assets/lowbattery.mp4';
 import Background from './Assets/background.png';
-import Me from './Assets/me.png';
 import './Styles.css';
-import FloatingImage from './Components/FloatingImage';
-import Resume from './Assets/Resume.pdf';
+import Resume from './Assets/Resume2020.pdf';
 
 const skills = {
 	technical: [
@@ -41,7 +39,7 @@ const App: React.FC = () => {
 					<div className="container p-1">
 						<div className="section-title">Osvaldo Villagomez</div>
 						<div className="section-subtitle">
-							Software Developer | Instagram Model
+							Software Developer | Designer
 						</div>
 						<a href={Resume} target="_blank" rel="noopener noreferrer" className="button mt-1">Check Me Out</a>
 					</div>
@@ -193,7 +191,6 @@ const App: React.FC = () => {
 				</div>
 			</div>
 			<Footer />
-			<FloatingImage src={Me} />
     </div>
   );
 }
