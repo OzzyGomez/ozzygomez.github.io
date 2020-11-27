@@ -12,7 +12,6 @@ const Footer = () => {
 					<a href="https://www.linkedin.com/in/osvaldo-villagomez-8385b769/" target="_blank" rel="noopener noreferrer" className="footer-menu-item">LinkedIn</a>
 					<a href="https://github.com/ozzygomez" target="_blank" rel="noopener noreferrer" className="footer-menu-item">Github</a>
 					<a href="https://twitter.com/ozzyvillagomez" target="_blank" rel="noopener noreferrer" className="footer-menu-item">Twitter</a>
-					<a href="https://www.facebook.com/ozzyvillagomez" target="_blank" rel="noopener noreferrer" className="footer-menu-item">Facebook</a>
 				</div>
 			</div>
 		</footer>
